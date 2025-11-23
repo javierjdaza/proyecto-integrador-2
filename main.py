@@ -15,7 +15,7 @@ from model_utils.AgePredictorCORAL import CoralEfficientNetV2
 from model_utils.AgePredictorRegression import EfficientNetV2Regression
 from PIL import Image
 import numpy as np
-# from deepface import DeepFace
+from deepface import DeepFace
 import cv2
 import gdown
 import os
