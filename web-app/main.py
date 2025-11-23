@@ -169,7 +169,7 @@ menu_selection = option_menu(None, ["Age Predictor", "The Team"],
 st.write('---')
 st.write(' ')
 st.write(' ')
-
+download_models()
 if menu_selection == 'Age Predictor':
     # f1,f2 = st.columns(2,  vertical_alignment = 'center', gap = 'medium', border = True)
     # f3,f4 = st.columns(2,  vertical_alignment = 'center', gap = 'medium', border = True)
