@@ -15,16 +15,16 @@ from model_utils.AgePredictorCORAL import CoralEfficientNetV2
 from model_utils.AgePredictorRegression import EfficientNetV2Regression
 from PIL import Image
 import numpy as np
-from deepface import DeepFace
+# from deepface import DeepFace
 import cv2
 import gdown
 import os
 
 def download_models():
-    os.makedirs("./web-app/models", exist_ok=True)
+    os.makedirs("./models", exist_ok=True)
 
-    model_path1 = "web-app/models/EfficientNetLCORAL.pth"
-    model_path2 = "web-app/models/EfficientNetLRegression.pth"
+    model_path1 = "./models/EfficientNetLCORAL.pth"
+    model_path2 = "./models/EfficientNetLRegression.pth"
     file_id1 = "1L0CKDaVJtHdEtxvfYy-fG6Jk6fLrrXEI"  
     file_id2 = "1Ys_spKTYOTVanEeICC_wtxcdm8Pb4EAR"  
     url1 = f"https://drive.google.com/uc?id={file_id1}"
