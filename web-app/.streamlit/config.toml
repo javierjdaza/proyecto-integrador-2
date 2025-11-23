@@ -1,0 +1,19 @@
+[theme]
+base="light"
+primaryColor="#000000"
+secondaryBackgroundColor="#efefef"
+
+backgroundColor="#ffffff"
+textColor="#222831"
+
+[client]
+toolbarMode = "viewer"
+showSidebarNavigation = false
+
+
+
+[server]
+runOnSave = true
+
+
+
