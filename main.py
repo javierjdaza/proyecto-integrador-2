@@ -162,7 +162,7 @@ menu_selection = option_menu(None, ["Age Predictor", "The Team"],
 st.write('---')
 st.write(' ')
 st.write(' ')
-# download_models()
+download_models()
 if menu_selection == 'Age Predictor':
 
     uploaded_file = st.file_uploader("Sube una imagen", type=["jpg", "jpeg", "png"])
